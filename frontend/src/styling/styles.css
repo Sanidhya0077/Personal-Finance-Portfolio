@@ -1,0 +1,202 @@
+/* MODAL OVERLAY */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* MODAL BOXES */
+.modal-box,
+.confirm-box {
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.confirm-box h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.confirm-box p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* MODAL HEADER */
+.modal-header {
+  background: #4f46e5;
+  color: white;
+  padding: 14px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* FORM */
+.form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.form-field input,
+.form-field select {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
+.btn.primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #4338ca;
+}
+
+.btn.cancel {
+  background: #e5e7eb;
+}
+
+.btn.cancel:hover {
+  background: #d1d5db;
+}
+
+.btn.danger {
+  background: #dc2626;
+  color: white;
+}
+
+.btn.danger:hover {
+  background: #b91c1c;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+/* CONFIRM BOX ACTIONS */
+.confirm-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* ASSET CARD */
+.asset-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.asset-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.asset-card-header {
+  background: #4f46e5;
+  padding: 12px;
+  color: white;
+}
+
+.asset-card-header .code {
+  color: #dbeafe;
+  font-size: 12px;
+}
+
+/* BODY */
+.asset-body {
+  padding: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.value-row {
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* RISK BADGES */
+.risk-badge {
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.risk-badge.low {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.risk-badge.medium {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.risk-badge.high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* FOOTER BUTTONS INSIDE CARD */
+.asset-actions {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}

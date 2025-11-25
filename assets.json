@@ -1,0 +1,19 @@
+[
+  {
+    "name": "DSP Mutual Fund",
+    "asset_type": "MF",
+    "investment_code": "MF",
+    "instrument_type": "Debt",
+    "risk": "High",
+    "current_value": 1000
+  },
+  {
+    "id": "9da63fbd-1109-49f1-9738-cca7a26a803d",
+    "name": "Mirae Asset Mutual Fund",
+    "asset_type": "Mutual Fund",
+    "investment_code": "MF",
+    "instrument_type": "Debt",
+    "risk": "Low",
+    "current_value": 500
+  }
+]
