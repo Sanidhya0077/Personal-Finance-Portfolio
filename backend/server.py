@@ -1,7 +1,7 @@
 from fastapi import FastAPI,HTTPException,Depends
 from schemas import AssetCreate
 from db import Asset, create_db_and_tables, get_async_session
-from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.ext.asyncio import AsyncSession # type: ignore
 from contextlib import asynccontextmanager
 from sqlalchemy import select
 import uuid

@@ -1,0 +1,5 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+gunicorn==21.2.0
+uvicorn-worker==0.2.0   # recommended worker wrapper
+python-dotenv           # optional, for env files
